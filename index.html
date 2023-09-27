@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <title>School of Public Health Anniversary</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/mxr8glf.css">
+    <link rel="icon" href="icon-rel.png" type="image/x-icon"/>
+</head>
+<body>
+<div class="navbar">
+    <div class="medium-top">
+        <div class="left">
+            <div class="small-b">
+                <a href="https://www.browndailyherald.com/page/about">ABOUT</a>
+                <div class="dropdown-menu" id="about-dd">
+                    <a class="top-one" href="https://www.browndailyherald.com/page/about">ABOUT THE HERALD</a>
+                    <hr class="menu-hr">
+                    <a href="#">JOIN</a>
+                    <hr class="menu-hr">
+                    <a href="https://www.browndailyherald.com/page/masthead">STAFF LIST</a>
+                    <hr class="menu-hr">
+                    <a href="https://www.browndailyherald.com/page/contact">CONTACT US</a>
+                    <hr class="menu-hr">
+                    <a href="https://www.browndailyherald.com/page/reprint-request">REPRINT PERMISSION</a>
+                    <hr class="menu-hr">
+                    <a href="https://www.browndailyherald.com/page/dei">DIVERSITY & INCLUSION</a>
+                </div>
+            </div>            <a class="small-b" href="https://www.browndailyherald.com/page/submissions">SUBMISSIONS</a>
+            <a class="small-b" href="https://www.browndailyherald.com/page/advertise">ADVERTISE</a>
+            <a class="small-b" id="donate-red" href="https://secure.lglforms.com/form_engine/s/s4ZSMYRtYV-9bAfVZglmWQ">DONATE</a>
+        </div>
+                
+        <div class="right">
+            <a href="https://twitter.com/the_herald" class="logo-href"><img class="r-social" src="red-twitter.png" alt="Twitter"></a>
+            <a href="https://www.facebook.com/browndailyherald" class="logo-href"><img class="r-social" src="red-facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/browndailyherald/" class="logo-href"><img class="r-social" src="red-instagram.png" alt="Instagram"></a>
+            <a href="https://secure.lglforms.com/form_engine/s/s4ZSMYRtYV-9bAfVZglmWQ" class="logo-href"><img class="r-social" src="red-donate.png" id="r-donate" alt="Donate"></a>
+        </div>
+
+    </div>
+
+    <div class="top-section">
+        <div class="left">
+            <a href="https://issuu.com/browndailyherald" class="red-link">Print Editions</a>
+            <p id="currentDate"></p>
+        </div>
+        
+        <div class="middle">
+            <a id="logo-hide" href="https://www.browndailyherald.com/"><img id="logo" src="logo.png" alt="BDH Logo"></a>
+        </div>
+        
+        <div class="right">
+            <a href="https://www.browndailyherald.com/page/submit" class="red-link">Submit a Tip</a>
+            <a href="https://www.browndailyherald.com/page/newsletters" class="red-link">Subscribe to Newsletters</a>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="bottom-section">
+
+        <div class="burger">
+            <img src="hamburger.png">
+            <div class="dropdown-content">
+                <div class="big-b">
+                    <a href="https://www.browndailyherald.com/section/news">NEWS</a>
+                    <div class="dropdown-menu">
+                        <a class="top-one" href="https://www.browndailyherald.com/section/university-news">UNIVERSITY NEWS</a>
+                        <hr class="menu-hr">
+                        <a href="https://www.browndailyherald.com/section/metro">METRO</a>
+                    </div>
+                </div>
+                <hr class="menu-hr">
+                <a class="big-b" href="https://www.browndailyherald.com/section/sports">SPORTS</a>
+                <hr class="menu-hr">
+                <div class="big-b">
+                    <a href="https://www.browndailyherald.com/section/arts-culture">ARTS & CULTURE</a>
+                    <div class="dropdown-menu">
+                        <a class="top-one" href="https://www.browndailyherald.com/section/events">EVENTS</a>
+                        <hr class="menu-hr">
+                        <a href="https://www.browndailyherald.com/section/review">REVIEW</a>
+                    </div>
+                </div>
+                <hr class="menu-hr">
+                <div class="big-b">
+                    <a href="https://www.browndailyherald.com/section/science-research">SCIENCE & RESEARCH</a>
+                    <div class="dropdown-menu" id="science">
+                        <a class="top-one" href="https://www.browndailyherald.com/section/stem">STEM</a>
+                        <hr class="menu-hr">
+                        <a href="https://www.browndailyherald.com/section/humanities-social-sciences">HUMANITIES & SOCIAL SCIENCE</a>
+                        <hr class="menu-hr">
+                        <a href="https://www.browndailyherald.com/section/health">HEALTH</a>
+                    </div>
+                </div>
+                <hr class="menu-hr">
+                <div class="big-b">
+                    <a href="https://www.browndailyherald.com/section/opinions">OPINIONS</a>
+                    <div class="dropdown-menu" id="opinion">
+                        <a class="top-one" href="https://www.browndailyherald.com/section/columns">COLUMNS</a>
+                        <hr class="menu-hr">
+                        <a href="https://www.browndailyherald.com/section/op-ed">OP-ED</a>
+                        <hr class="menu-hr">
+                        <a href="https://www.browndailyherald.com/section/editorials">EDITORIALS</a>
+                        <hr class="menu-hr">
+                        <a href="https://www.browndailyherald.com/section/letters-to-the-editor">LETTERS TO THE EDITOR</a>
+                        <hr class="menu-hr">
+                        <a href="https://www.browndailyherald.com/section/editors-note">EDITOR'S NOTE</a>
+                    </div>
+                </div>
+                <hr class="menu-hr">
+                <div class="big-b">
+                    <a href="https://www.browndailyherald.com/section/projects">PROJECTS</a>
+                    <div class="dropdown-menu" id="project">
+                        <a class="top-one" href="https://www.browndailyherald.com/section/black-history-month-2023">BLACK HISTORY MONTH 2023</a>
+                        <hr class="menu-hr">
+                        <a href="https://www.browndailyherald.com/section/womens-history-month-2023">WOMEN'S HISTORY MONTH 2023</a>
+                        <hr class="menu-hr">
+                        <a href="https://www.browndailyherald.com/section/adoch-2023">ADOCH 2023</a>
+                        <hr class="menu-hr">
+                        <a href="https://www.browndailyherald.com/section/data">DATA</a>
+                        <hr class="menu-hr">
+                        <a href="https://www.browndailyherald.com/section/archival">ARCHIVAL</a>
+                    </div>
+                </div>
+                <hr class="menu-hr">
+                <div class="big-b">
+                    <a href="https://www.browndailyherald.com/section/post-magazine">POST-MAGAZINE</a>
+                    <div class="dropdown-menu">
+                        <a class="top-one" href="https://www.browndailyherald.com/section/post-feature">FEATURE</a>
+                        <hr class="menu-hr">
+                        <a href="https://www.browndailyherald.com/section/post-narrative">NARRATIVE</a>
+                        <hr class="menu-hr">
+                        <a href="https://www.browndailyherald.com/section/post-arts-culture">ARTS & CULTURE</a>
+                        <hr class="menu-hr">
+                        <a href="https://www.browndailyherald.com/section/post-lifestyle">LIFESTYLE</a>
+                    </div>
+                </div>
+                <hr class="menu-hr">
+                <div class="big-b">
+                    <a href="https://www.browndailyherald.com/section/multimedia">MULTIMEDIA</a>
+                    <div class="dropdown-menu">
+                        <a class="top-one" href="https://www.browndailyherald.com/section/podcasts">PODCASTS</a>
+                        <hr class="menu-hr">
+                        <a href="https://www.browndailyherald.com/multimedia/video">VIDEO</a>
+                        <hr class="menu-hr">
+                        <a href="https://www.browndailyherald.com/gallery">PHOTOS</a>
+                    </div>
+                </div>
+                <!-- ...add as many links as you need -->
+            </div>
+        </div>
+
+        <div class="left">
+            <div class="small-b">
+                <a href="https://www.browndailyherald.com/page/about">ABOUT</a>
+                <div class="dropdown-menu" id="about-dd">
+                    <a class="top-one" href="https://www.browndailyherald.com/page/about">ABOUT THE HERALD</a>
+                    <hr class="menu-hr">
+                    <a href="#">JOIN</a>
+                    <hr class="menu-hr">
+                    <a href="https://www.browndailyherald.com/page/masthead">STAFF LIST</a>
+                    <hr class="menu-hr">
+                    <a href="https://www.browndailyherald.com/page/contact">CONTACT US</a>
+                    <hr class="menu-hr">
+                    <a href="https://www.browndailyherald.com/page/reprint-request">REPRINT PERMISSION</a>
+                    <hr class="menu-hr">
+                    <a href="https://www.browndailyherald.com/page/dei">DIVERSITY & INCLUSION</a>
+                </div>
+            </div>            <a class="small-b" href="https://www.browndailyherald.com/page/submissions">SUBMISSIONS</a>
+            <a class="small-b" href="https://www.browndailyherald.com/page/advertise">ADVERTISE</a>
+            <a class="small-b" id="donate-red" href="https://secure.lglforms.com/form_engine/s/s4ZSMYRtYV-9bAfVZglmWQ">DONATE</a>
+        </div>
+        
+        <div class="middle">
+            <div class="big-b">
+                <a href="https://www.browndailyherald.com/section/news">NEWS</a>
+                <div class="dropdown-menu">
+                    <a class="top-one" href="https://www.browndailyherald.com/section/university-news">UNIVERSITY NEWS</a>
+                    <hr class="menu-hr">
+                    <a href="https://www.browndailyherald.com/section/metro">METRO</a>
+                </div>
+            </div>
+            <a class="big-b" href="https://www.browndailyherald.com/section/sports">SPORTS</a>
+            <div class="big-b">
+                <a href="https://www.browndailyherald.com/section/arts-culture">ARTS & CULTURE</a>
+                <div class="dropdown-menu">
+                    <a class="top-one" href="https://www.browndailyherald.com/section/events">EVENTS</a>
+                    <hr class="menu-hr">
+                    <a href="https://www.browndailyherald.com/section/review">REVIEW</a>
+                </div>
+            </div>
+            <div class="big-b">
+                <a href="https://www.browndailyherald.com/section/science-research">SCIENCE & RESEARCH</a>
+                <div class="dropdown-menu" id="science">
+                    <a class="top-one" href="https://www.browndailyherald.com/section/stem">STEM</a>
+                    <hr class="menu-hr">
+                    <a href="https://www.browndailyherald.com/section/humanities-social-sciences">HUMANITIES & SOCIAL SCIENCE</a>
+                    <hr class="menu-hr">
+                    <a href="https://www.browndailyherald.com/section/health">HEALTH</a>
+                </div>
+            </div>
+            <div class="big-b">
+                <a href="https://www.browndailyherald.com/section/opinions">OPINIONS</a>
+                <div class="dropdown-menu" id="opinion">
+                    <a class="top-one" href="https://www.browndailyherald.com/section/columns">COLUMNS</a>
+                    <hr class="menu-hr">
+                    <a href="https://www.browndailyherald.com/section/op-ed">OP-ED</a>
+                    <hr class="menu-hr">
+                    <a href="https://www.browndailyherald.com/section/editorials">EDITORIALS</a>
+                    <hr class="menu-hr">
+                    <a href="https://www.browndailyherald.com/section/letters-to-the-editor">LETTERS TO THE EDITOR</a>
+                    <hr class="menu-hr">
+                    <a href="https://www.browndailyherald.com/section/editors-note">EDITOR'S NOTE</a>
+                </div>
+            </div>
+            <div class="big-b">
+                <a href="https://www.browndailyherald.com/section/projects">PROJECTS</a>
+                <div class="dropdown-menu" id="project">
+                    <a class="top-one" href="https://www.browndailyherald.com/section/black-history-month-2023">BLACK HISTORY MONTH 2023</a>
+                    <hr class="menu-hr">
+                    <a href="https://www.browndailyherald.com/section/womens-history-month-2023">WOMEN'S HISTORY MONTH 2023</a>
+                    <hr class="menu-hr">
+                    <a href="https://www.browndailyherald.com/section/adoch-2023">ADOCH 2023</a>
+                    <hr class="menu-hr">
+                    <a href="https://www.browndailyherald.com/section/data">DATA</a>
+                    <hr class="menu-hr">
+                    <a href="https://www.browndailyherald.com/section/archival">ARCHIVAL</a>
+                </div>
+            </div>
+            <div class="big-b">
+                <a href="https://www.browndailyherald.com/section/post-magazine">POST-MAGAZINE</a>
+                <div class="dropdown-menu">
+                    <a class="top-one" href="https://www.browndailyherald.com/section/post-feature">FEATURE</a>
+                    <hr class="menu-hr">
+                    <a href="https://www.browndailyherald.com/section/post-narrative">NARRATIVE</a>
+                    <hr class="menu-hr">
+                    <a href="https://www.browndailyherald.com/section/post-arts-culture">ARTS & CULTURE</a>
+                    <hr class="menu-hr">
+                    <a href="https://www.browndailyherald.com/section/post-lifestyle">LIFESTYLE</a>
+                </div>
+            </div>
+            <div class="big-b">
+                <a href="https://www.browndailyherald.com/section/multimedia">MULTIMEDIA</a>
+                <div class="dropdown-menu">
+                    <a class="top-one" href="https://www.browndailyherald.com/section/podcasts">PODCASTS</a>
+                    <hr class="menu-hr">
+                    <a href="https://www.browndailyherald.com/multimedia/video">VIDEO</a>
+                    <hr class="menu-hr">
+                    <a href="https://www.browndailyherald.com/gallery">PHOTOS</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="right">
+            <a href="https://twitter.com/the_herald" class="logo-href"><img class="social" src="twitter.png" alt="Twitter"></a>
+            <a href="https://www.facebook.com/browndailyherald" class="logo-href"><img class="social" src="facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/browndailyherald/" class="logo-href"><img class="social" src="instagram.png" alt="Instagram"></a>
+            <a href="https://secure.lglforms.com/form_engine/s/s4ZSMYRtYV-9bAfVZglmWQ" class="logo-href"><img class="social" src="donate.png" id="donate" alt="Donate"></a>
+        </div>
+    </div>
+    
+    <hr>
+
+</div>
+
+<div id="navbar-timeline">
+    <img src="timeline/0.png" id="timeline-image" alt="Timeline">
+    <div id="timeline-labels">
+        <div class="year-label" data-year="1916"><a href="#year-1916" data-year="1916">1916</a></div>
+        <div class="year-label" data-year="1971"><a href="#year-1971" data-year="1971">1971</a></div>
+        <div class="year-label" data-year="1980"><a href="#year-1980" data-year="1980">80s</a></div>
+        <div class="year-label" data-year="1990"><a href="#year-1990" data-year="1990">90s</a></div>
+        <div class="year-label" data-year="2000"><a href="#year-2000" data-year="2000">2000s</a></div>
+        <div class="year-label" data-year="2010"><a href="#year-2010" data-year="2010">2010s</a></div>
+        <div class="year-label" data-year="2013"><a href="#year-2013" data-year="2013">2013</a></div>
+        <div class="year-label" data-year="2016"><a href="#year-2016" data-year="2016">2016</a></div>
+        <div class="year-label" data-year="2020"><a href="#year-2020" data-year="2020">2020-21</a></div>
+        <div class="year-label" data-year="2022"><a href="#year-2022" data-year="2022">2022</a></div>
+        <div class="year-label" data-year="2023"><a href="#year-2023" data-year="2023">2023</a></div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="header">
+        <a href="https://www.browndailyherald.com/section/university-news"><h5>UNIVERSITY NEWS</h5></a>
+        <h1>School of Public Health Celebrates 10 Years</h1>
+        <p>Former administrators, faculty look back on founding and towards future</p>
+    </div>
+    
+
+    <img src="cover.jpeg" id="article-cover-img">
+
+
+    <div class="intro">
+        <p class="article-text">During the 2012-13 academic year, the University’s faculty and Corporation unanimously voted to create the School of Public Health, which opened the following year. Today, the school stands at 121 South Main Street and receives more funding from the National Institutes of Health than all but three other schools of its kind. Its dean, Ashish Jha, earned national attention during the COVID-19 pandemic, culminating in his appointment as the White House’s COVID-19 Response Coordinator.
+<br><br>
+            To celebrate the school’s 10-year anniversary, Brown is hosting a series of events throughout the year, reflecting on the school’s research, education and innovation. As the School of Public Health looks to the future, take a moment to explore its history.</p>
+    </div>
+    <div class="content">
+        <h2 id="year-1916" data-label="1916">1916</h2>
+        <p class="article-text">The study of public health occurred at the University long before the creation of SPH. In 1916, the Corporation — the University’s highest governing body — recommended a graduate program in public health to provide “thorough training in the prevention of disease and the administration of modern agencies for conserving and promoting the health of the community,” though it’s unclear if the program came to fruition or lasted.</p>
+
+        <h2 id="year-1971" data-label="1971">1971</h2>
+        <p class="article-text">In 1971, the department of community health was created in tandem with the Warren Alpert Medical School. When Vincent Mor — former chair of community health and current professor of health services, policy and practice — joined the faculty in 1980, there were only “three or four faculty members” involved, he told The Herald.</p>
+
+        <h2 id="year-1980" data-label="1980">The 80s</h2>
+        <p class="article-text">The 1980s ushered in a period of growth for the department of community health, which Mor credits to an “entrepreneurial orientation to building research.” The Center for Alcohol and Addiction Studies was founded in 1982, and the Center for Gerontology and Healthcare Research opened its doors five years later. </p>
+
+        <h2 id="year-1990" data-label="1990">The 90s</h2>
+        <p class="article-text">By the mid-1990s, Warren Alpert featured nearly ten research institutes focused on community health and over one hundred faculty, according to Mor. It was only after this growth in public health research at the medical school that the Corporation approved a master’s program in public health. 
+<br><br>
+            According to Terrie Wetle, the eventual inaugural dean of SPH and professor emerita of health services, policy and practice, “the research programs in public health were much stronger and better developed than the academic program,” an “unusual” development in higher education. 
+            </p>
+
+            <h2 id="year-2000" data-label="2000">2000s</h2>
+            <p class="article-text">In 2002, the Master’s of Public Health program was accredited by the Council of Education on Public Health, an independent accreditation agency recognized by the U.S. Department of Education. 
+                <br><br>
+                At the time, the department of community health was still attached to the medical school. But conversations had already been brewing for a separate school of public health for years, Mor said.
+                <br><br>
+                In the early 2000s, the public health’s hopes of moving away from the medical school created a source of tension. Because 40% of external grant revenue at the medical school came from public health research, the public health program was “a very integral part of the medical school,” Wetle said. With a separate school, “they would lose indirect costs and they would lose very productive faculty.”
+                <br><br>
+                Wetle worked under three University presidents, five provosts and five deans of medicine and biological sciences before the School of Public Health was created. Eventually, she received the support of the administration.
+                <br><br>
+                When Eli Adashi, professor of medical science and former dean of medicine and biological sciences, came to Brown in 2004, “the notion of creating a School of Public Health came up” immediately.
+                <br><br>
+                At the time, community health faculty members were spread out across campus. Adashi — alongside the former provost and the vice president of finance — was tasked with looking for a central location. They toured 121 South Main Street, which was a commercial building at the time.
+                <br><br>
+                They walked back up College Hill and decided “right there … to purchase the building and to proceed,” Adashi said. 
+                <br><br>
+                “For a while, the building was comprised of a mixed population of the business community and public health faculty,” he added. “As more and more time went by, the entire building was eventually turned into a public health entity.”
+                </p>
+
+                <h2 id="year-2010" data-label="2010">2010s</h2>
+                <p class="article-text">After a building was selected, additional programs needed to be developed to become an accredited School of Public Health. In 2011, the community health department split into the four departments that the SPH now houses today: Behavioral and Social Sciences; Biostatistics; Epidemiology; and Health Services, Policy and Practice.
+                    <br><br>
+                    In November 2012, the faculty unanimously approved a motion to move forward with the school’s creation and move the decision to the corporation. The approval was met with “enthusiastic applause,” according to a Nov 6 article from The Herald. 
+                    <br><br>
+                    According to 2013 polling from The Herald, 65% of undergraduates and 72% of faculty supported the school’s creation. </p>
+
+                    <h2 id="year-2013" data-label="2013">2013 - the first year of SPH</h2>
+                    <p class="article-text">The Corporation officially approved the school on February 13th — bringing the thirteen-year process to a culmination. “We had met every goal that had been set for us,” Wetle said. “We had grown the academic programs. We had grown the faculty. We were ready.”
+                        <br><br>
+                        Still, the school had not received accreditation, which created problems for the public health program.
+                        <br><br>
+                        “There were times when we were in competition for an excellent doctoral student, and they would go someplace else,” Wetle said. When they gave their reasoning for choosing another school over Brown, many said “Well, it's an accredited School of Public Health.”
+                        <br><br>
+                        When Wetle asked faculty the same question they answered they would “rather be at an accredited school of public health because (they) can apply for (certain) grants.”
+                        <br><br>
+                        After a three-year process, the school received accreditation in 2016, garnering more opportunities for research funding and attracting students. SPH could then apply for grants from the Centers for Disease Control and Prevention and participate in the Schools of Public Health Application Service — expediting student applications.
+                        <br><br>
+                        Now, SPH is home to some of the most sought-after researchers and studies the pressing problems plaguing the Rhode Island community and the world. Since 2013, SPH has made major strides in the field of public health and receives over $55 million in annual external funding for its diverse centers and laboratories. </p>
+
+                        <h2 id="year-2016" data-label="2016">2016</h2>
+                    <p class="article-text">In 2016, the Rhode Island Department of Health established an academic partnership with SPH, allowing for greater collaboration between University faculty and RIDOH. Wetle likened this collaboration to the “equivalent of a teaching medical school or hospital,” allowing the two institutions to be “integrated in (their) teaching and research activities.” </p>
+
+                    <h2 id="year-2020" data-label="2020">2020-2021</h2>
+                    <p class="article-text">SPH’s faculty and their work shined during the COVID-19 pandemic. Megan Ranney MPH’10, former deputy dean of SPH, led the #GetUsPPE campaign — a push to get healthcare workers adequate protective equipment to reduce the spread of COVID-19 in hospitals. Get Us PPE, an organization co-founded by Ranney, donated more than 17 million pieces of personal protective equipment in 2020 and 2021, according to its website. 
+                        <br><br>
+                        Ranney also was the founding director of the Brown-Lifespan Center for Digital Health; she is now the Dean of the Yale School of Public Health. 
+                        <br><br>
+                        In September 2020, Jha joined as the dean of public health as he became a regular figure on network TV and cable news alike to explain and discuss the COVID-19 pandemic. 
+                        </p>
+
+                    <h2 id="year-2022" data-label="2022">2022</h2>
+                    <p class="article-text">In 2022, the SPH founded the Pandemic Center, an interdisciplinary research center that looks to “better (understand) these catastrophic threats, their far-reaching casualties, and (develop) the tools, policies, and practices to mitigate and prevent their impact,” according to its website. The same year, Jha temporarily departed his post to serve at the White House. There, he coordinated the winddown of the country’s pandemic response and pushed for COVID-19 vaccination efforts with a $5 billion program. </p>
+        <h2 id="year-2023" data-label="2023">2023</h2>
+        <p>This summer, the Pandemic Center recently recruited Seth Berkley ’78, MD’81 as a senior advisor. Berkley previously served as the CEO of Gavi, The Vaccine Alliance which directed vaccination efforts around the world.
+            <br><br>
+            Jha also returned to College Hill from his temporary post. In the announcement of his departure, President Joe Biden wrote that Jha “has effectively translated and communicated complex scientific challenges into concrete actions that helped save and improve the lives of millions of Americans.”
+            <br><br>
+            SPH has also recently instituted programs to promote diversity in the next generation of public health leaders. The Health Equity Scholars program, launched in 2020, supports students from historically Black colleges and universities, Hispanic-serving institutions and local communities with scholarships and leadership experiences. This year, 27% of SPH’s students come from historically underrepresented groups, according to SPH’s website.
+            <br><br>
+            Wetle said she believes that in the last several years, SPH has worked hard to “recruit a diverse faculty and student body,” which has “improved the School of Public Health and … will continue to be a part of (its) mission.”
+            <br><br>
+            What started as a three-person project can now barely contain all of its faculty on 121 South Main. “More quickly than we thought would happen, we had grown beyond this space,” Wetle said. “You can hire new faculty, but where do you put them?  You can recruit new students, but where do you put them?”
+            <br><br>
+            “It's the challenge of success,” she added.
+            <br><br>
+            As SPH looks to its future, faculty told The Herald that they want to make sure that it does not lose sight of its roots. Mor wants people to think of Brown when they think of the top five public health programs in the country, he said. But he also wants to make sure that this success occurs “without walking away from the integration with the undergraduate world.” 
+            <br><br>
+            Even as SPH grows, Wetle hopes it maintains a family-like atmosphere where “everyone feels that they belong,” even though it is difficult for an ever-growing institution. 
+            <br><br>
+            SPH will kick off a year of celebration on Sept 27 event that looks to “explore the past, present and future vision for public health at Brown,” according to a letter from Jha.
+            <br><br>
+            “At the tail end of a historic pandemic,” Jha wrote, “... it is an important time to build on our history, renew our commitment, and create a bold path forward together.
+            </p>
+    </div>
+</div>
+
+
+<script>
+    // Get elements
+    const timelineImage = document.getElementById('timeline-image');
+    const timelineLabels = document.getElementById('timeline-labels');
+    const yearSections = document.querySelectorAll('.content h2');
+    
+// Add scroll event listener
+window.addEventListener('scroll', () => {
+  let found = false;
+  for (let i = yearSections.length - 1; i >= 0 && !found; i--) {
+    const rect = yearSections[i].getBoundingClientRect();
+    if (rect.top <= 200) {  // 200 is a threshold value, adjust as needed
+      updateTimeline(i + 1, yearSections[i].getAttribute('data-label'));
+      found = true;  // Stop once we find the first header in view
+    }
+  }
+  if (!found) {
+    updateTimeline(0);  // Reset to blank timeline if no headers are in view
+  }
+});
+
+  
+    // Update timeline function
+// Update timeline function
+function updateTimeline(imageIndex, label = '') {
+  timelineImage.src = `timeline/${imageIndex}.png`;
+  timelineLabels.querySelectorAll('a').forEach(labelElement => {
+    labelElement.classList.toggle('bold', labelElement.getAttribute('data-year') === label);
+  });
+}
+
+  
+    // Add click event listeners to timeline labels
+    timelineLabels.querySelectorAll('a').forEach(label => {
+      label.addEventListener('click', (event) => {
+        event.preventDefault();
+        const year = event.target.getAttribute('data-year');
+        document.getElementById(`year-${year}`).scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+  
+</body>
+
